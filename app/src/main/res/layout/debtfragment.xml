@@ -3,9 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".MacroEconomicFragment">
+    tools:context=".DebtFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <RadioGroup
@@ -17,28 +15,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onCheckboxClicked"
-            android:text="GDP (USD)" />
+            android:text="Reserves" />
 
         <CheckBox
             android:id="@+id/checkbox_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onCheckboxClicked"
-            android:text="FDI Inflows (USD)" />
+            android:text="GNI" />
 
         <CheckBox
             android:id="@+id/checkbox_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onCheckboxClicked"
-            android:text="FDI Outflows (USD)" />
+            android:text="Total Debt" />
 
         <CheckBox
             android:id="@+id/checkbox_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onCheckboxClicked"
-            android:text="Import/Export Flow" />
+            android:text="GNI (current US$)" />
 
         <Button
             android:id="@+id/show"

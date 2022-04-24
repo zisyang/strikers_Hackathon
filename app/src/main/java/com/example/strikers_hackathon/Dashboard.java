@@ -30,7 +30,7 @@ public class Dashboard extends AppCompatActivity {
         Viewer Viewer = new Viewer(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         Viewer.addFragment(new MacroEconomicFragment(), "Macroeconomic");
         Viewer.addFragment(new AgricultureFragment(), "Agriculture");
-        Viewer.addFragment(new TradeFragment(), "Trade");
+        Viewer.addFragment(new DebtFragment(), "Debt");
         viewPager.setAdapter(Viewer);
     }
 
